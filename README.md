@@ -27,4 +27,4 @@ Follow these steps to set up and run the project:
    npm run dev
    ```
 
-   The project will be available at `http://localhost:5173.
+   The project will be available at http://localhost:5173.
