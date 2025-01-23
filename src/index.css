@@ -1,0 +1,265 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-display: swap;
+  src: url('/src/assets/fonts/Satoshi/Satoshi-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-display: swap;
+  src: url('/src/assets/fonts/Satoshi/Satoshi-Medium.otf');
+}
+
+@font-face {
+  font-family: 'SST';
+  font-weight: bold;
+  font-display: swap;
+  src: url('/src/assets/fonts/SST/SST-Arabic-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'SST';
+  font-weight: 500;
+  font-display: swap;
+  src: url('/src/assets/fonts/SST/SST-Arabic-Medium.ttf');
+}
+
+.no-drag-img {
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #fcfcfa;
+  color: #0a0a0a;
+
+  .grid-bg {
+    background-image: linear-gradient(
+        rgba(231, 233, 231, 0.6) 0.5px,
+        transparent 0.5px
+      ),
+      linear-gradient(to right, rgba(231, 233, 231, 0.6) 1px, #fcfcfa 1px);
+    background-size: 68px 68px;
+    background-position: center;
+  }
+}
+
+body.dark {
+  background-color: #0a0a0a;
+  color: #fcfcfa;
+
+  .grid-bg {
+    background-image: linear-gradient(
+        rgba(42, 42, 42, 0.5) 0.5px,
+        transparent 0.5px
+      ),
+      linear-gradient(to right, rgba(42, 42, 42, 0.5) 0.5px, #0a0a0a 1px);
+  }
+}
+
+:lang(en) body {
+  font-family: 'Satoshi', sans-serif;
+}
+
+:lang(ar) body {
+  font-family: 'SST', 'Arial', sans-serif;
+}
+
+@media (max-width: 425px) {
+  body {
+    .grid-bg {
+      background-image: linear-gradient(
+          rgba(231, 233, 231, 0.8) 0.5px,
+          transparent 0.5px
+        ),
+        linear-gradient(to right, rgba(231, 233, 231, 0.8) 1px, #fcfcfa 1px);
+    }
+  }
+
+  body.dark {
+    .grid-bg {
+      background-image: linear-gradient(
+          rgba(42, 42, 42, 0.7) 0.5px,
+          transparent 0.5px
+        ),
+        linear-gradient(to right, rgba(42, 42, 42, 0.7) 0.5px, #0a0a0a 1px);
+    }
+  }
+}
+
+.gradientGlowParent {
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    #ff0000 0deg,
+    #ff001a 54.8916deg,
+    rgb(255, 205, 95) 106.699deg,
+    rgb(255, 220, 150) 162deg,
+    rgb(255, 197, 0) 252deg,
+    #ff8000 306deg,
+    rgb(244, 190, 96) 360deg
+  );
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  filter: blur(32px);
+}
+
+.gradientGlowChild {
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    rgb(255, 217, 173) 0deg,
+    rgb(255, 197, 0) 180deg,
+    rgb(253, 134, 77) 360deg
+  );
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 2.75rem);
+  filter: blur(32px);
+}
+
+@media screen and (max-width: 768px) {
+  .gradientGlowParent {
+    width: 250px;
+    height: 250px;
+    filter: blur(0px);
+    top: 100%;
+  }
+  .gradientGlowChild {
+    width: 175px;
+    height: 175px;
+    filter: blur(0px);
+    top: 100%;
+  }
+}
+
+.gradientGlowParent-no {
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    #ff0000 0deg,
+    #ff001a 54.8916deg,
+    #00a6ff 106.699deg,
+    #4797ff 162deg,
+    #0044ff 252deg,
+    #ff8000 306deg,
+    rgb(244, 190, 96) 360deg
+  );
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  filter: blur(32px);
+}
+
+.gradientGlowChild-no {
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    rgb(255, 217, 173) 0deg,
+    rgb(19, 156, 229) 180deg,
+    rgb(253, 134, 77) 360deg
+  );
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 2.75rem);
+  filter: blur(32px);
+}
+
+.specialGlowP {
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    #ff0000 0deg,
+    #ff001a 54.8916deg,
+    #ff8000 106.699deg,
+    #ff8000 162deg,
+    #f4be60 252deg,
+    #ff8000 306deg,
+    #f4be60 360deg
+  );
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  filter: blur(32px);
+}
+.specialGlowC {
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    rgb(255, 217, 173) 0deg,
+    #f4be60 180deg,
+    rgb(253, 134, 77) 360deg
+  );
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 2.75rem);
+  filter: blur(32px);
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .text {
+    padding: 0 30px 0 30px;
+  }
+  .text-gap {
+    gap: 25px;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  .text {
+    padding: 0 32px 0 32px;
+  }
+  .text-gap {
+    gap: 28px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .text {
+    padding: 0 45px 0 45px;
+  }
+  .text-gap {
+    gap: 41px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .text {
+    padding: 0 68px 0 68px;
+  }
+  .text-gap {
+    gap: 63px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .text-gap {
+    gap: 63px;
+  }
+}

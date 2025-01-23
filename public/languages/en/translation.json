@@ -1,0 +1,405 @@
+{
+  "companyName": "Seven Design Studio",
+  "buttons": {
+    "bookACall": "Book a call",
+    "learnMore": "Learn More",
+    "discoverMore": "Discover More",
+    "getStarted": "Get Started",
+    "letsTalk": "Let's Talk"
+  },
+  "nav": {
+    "ourProjects": "Our Projects",
+    "process": "Process",
+    "benefits": "Benefits",
+    "services": "Services",
+    "pricing": "Pricing",
+    "FAQs": "FAQs"
+  },
+  "home page": "______________ Home Page ______________ ",
+  "home": {
+    "hero section": "______________ Hero Section ______________ ",
+    "heroSection": {
+      "hurry": "Hurry! Only 3 Spots Left"
+    },
+    "Logos Section": "______________ Logos Section ______________ ",
+    "logosSection": {
+      "littleTitle": "You're in good hands:"
+    },
+    "recent projects": "______________ Recent Projects ______________ ",
+    "recentProjectsSection": {
+      "title": "Our Recent",
+      "latin": "Projects",
+      "description": "Take a look at some of out latest projects."
+    }
+  },
+  "CopiedSection": "______________ Copied Section ______________",
+  "copied": {
+    "quote": "Imagine a dark curtain over a brightly lit store! in short, this is what a weak logo looks like",
+    "by": "Dr. Mohamed Essam (Founder)"
+  },
+  "counter section": "______________ Counter Section ______________ ",
+  "counter": {
+    "yearsExperience": {
+      "title": "Years of Experience"
+    },
+    "countries": {
+      "title": "Countries"
+    },
+    "creativeDesigns": {
+      "title": "Creative Designs"
+    },
+    "completedProjects": {
+      "title": "Completed Projects"
+    },
+    "satisfactionRate": {
+      "title": "Satisfaction Rate"
+    },
+    "happyClients": {
+      "title": "Happy Clients"
+    }
+  },
+  "Process section": "______________ Process Section ______________ ",
+  "process": {
+    "sectionTitle": "Process",
+    "howIt": "How It",
+    "works": "works?",
+    "description": "Iconic Brand in 3 Easy Steps",
+    "enrollTitle": "Enroll",
+    "enrollDescription": "Select the plan that fits your needs and start your journey to an iconic brand.",
+    "shareTitle": "Share",
+    "shareDescription": "Share your vision with us, and we’ll bring it to life with stunning designs.",
+    "receiveTitle": "Receive",
+    "receiveDescription": "Your Iconic Brand is Ready! Receive your final designs with revisions until 100% satisfied."
+  },
+  "benefits section": "______________ Benefits Section ______________ ",
+  "benefits": {
+    "sectionTitle": "Benefits",
+    "why": "Why",
+    "us": "Us?",
+    "description": "Our plans come with the promise of limitless creativity and dedicated support.",
+    "expertDesignersTitle": "Expert Designers",
+    "expertDesignersDescription": "With years of experience and a portfolio of successful projects, we deliver designs you can trust.",
+    "uniqueDesignsTitle": "Unique Designs",
+    "uniqueDesignsDescription": "Stand out with custom, one-of-a-kind designs tailored specifically for your brand.",
+    "engagingVisualsTitle": "Engaging Visuals",
+    "engagingVisualsDescription": "Our visuals are designed to captivate your audience and leave a lasting impression.",
+    "fastDeliveryTitle": "Fast Delivery",
+    "fastDeliveryDescription": "Get your designs quickly, professionally, and efficiently, ensuring your projects stay on track.",
+    "transparentPricingTitle": "Transparent Pricing",
+    "transparentPricingDescription": "We offer clear and competitive pricing with no hidden fees. Choose a plan that fits your budget.",
+    "fullSatisfactionTitle": "Full Satisfaction",
+    "fullSatisfactionDescription": "Your satisfaction is our top priority. We promise to do our best to make you 100% satisfied."
+  },
+  "services section": "______________ Services Section ______________ ",
+  "services": {
+    "sectionTitle": "Services",
+    "allYour": "All your",
+    "designNeeds": "design needs",
+    "description": "From logo design to brand identity, our expert team crafts unique visual solutions that elevate your business and leave a lasting impact.",
+    "logoDesignTitle": "Logo Design",
+    "brandIdentityDesignTitle": "Brand Identity Design",
+    "logoAnimationTitle": "Logo Animation",
+    "socialMediaDesignsTitle": "Social Media Designs",
+    "graphicsDesignTitle": "Graphics Design",
+    "websiteDesignAndDevelopmentTitle": "Website Design and Development",
+    "managingAdsCampaignsTitle": "Managing Ads Campaigns",
+    "socialMediaManagementTitle": "Social Media Management"
+  },
+  "comparison section": "______________ Comparison Section ______________ ",
+  "comparison": {
+    "sectionTitle": "Comparison",
+    "whyWorking": "Why Working With Us is",
+    "different": "Different?",
+    "otherAgencies": {
+      "title": "Other Agencies",
+      "genericLogoDesigns": "Generic logo designs",
+      "noFreeRevisions": "No free revisions",
+      "noBrandGuidelines": "No brand guidelines",
+      "slowDelivery": "Slow delivery",
+      "noIndustryResearch": "No industry research"
+    },
+    "sevenDesignStudio": {
+      "uniqueLogoDesigns": "Unique, custom logo designs",
+      "upToFreeRevisions": "Up to 3 free revisions",
+      "comprehensiveBrandGuidelines": "brand guidelines",
+      "fastDelivery": "Fast and reliable delivery",
+      "industryResearch": "Industry-specific research"
+    }
+  },
+  "testimonials section": "______________ Testimonials Section ______________ ",
+  "testimonials": {
+    "wordsOfLove": "Words Of Love",
+    "readWhat": "Read What",
+    "ourClients": "Our Clients",
+    "say": "Say",
+    "description": "See how our designs and fast delivery helped businesses stand out. Clients share how we turned their ideas into unforgettable brand identities.",
+    "clients": {
+      "one": {
+        "name": "Sahar Diab",
+        "title": "Owner of Dega Printing & Design Brand",
+        "testimonial": "I had a vague idea for a logo, but your team delivered a stunning design. The colors and concept perfect—Masha Allah, your talent incredible—highly recommended."
+      },
+      "two": {
+        "name": "Gaafar El kazzaz",
+        "title": "Founder of Insan Foundation",
+        "testimonial": "Working with Seven was a pleasure. Your professionalism and creativity exceeded expectations. The book cover design is incredible; I highly recommend your team."
+      },
+      "three": {
+        "name": "Ahmed Torgman",
+        "title": "Owner of Shuts Café",
+        "testimonial": "Seven stands out among designers. Your work is professional. You provide unique out-of-the-box ideas—Masha Allah, you’re one of the best I’ve ever worked with."
+      },
+      "four": {
+        "name": "Fahad Al-Mansoori",
+        "title": "Owner of Parfino Oud",
+        "testimonial": "Ya hala, your designs for Parfino Oud are stunning, elegant, and luxurious, perfectly matching our fragrances. Customers love the look—Shukran for making our brand stand out."
+      },
+      "five": {
+        "name": "Layla Al-Rashid",
+        "title": "Marketing Manager at Joylife (Saudi Arabia)",
+        "testimonial": "After a tough experience elsewhere, your team nailed our vision. The packaging is beautiful, unique, and loved by customers—Shukran for saving our brand with your amazing work."
+      },
+      "six": {
+        "name": "Dr. Walid Al-Harbi",
+        "title": "Owner of Wali Al Ahd Women's Health Center",
+        "testimonial": "Your team perfectly captured Wali Al Ahd’s essence. The branding reflects our care and professionalism. The process was smooth—Masha Allah, talented indeed."
+      },
+      "seven": {
+        "name": "Tasbeeh El Masry",
+        "title": "Creative Director at Simplicity Clothing Store",
+        "testimonial": "Exceeding our expectations, your team created a modern, heritage-rich brand identity. Alhamdulillah, customers loved it. Your professionalism and creativity are unmatched—highly recommended."
+      },
+      "eight": {
+        "name": "Serag El-Din Talaat",
+        "title": "Lawyer",
+        "testimonial": "A unique logo, slogan, and profile picture were created for me by your team. The professionalism, creativity, and timely delivery were impressive—I’m truly grateful for your exceptional work."
+      },
+      "nine": {
+        "name": "Eng. Ahmed Esmat",
+        "title": "CEO of Fly 60 Airplane Company",
+        "testimonial": "The motion graphics and branding for Fly 60 are sleek, perfectly aligned. Your team delivered on time, and Masha Allah, your work elevated our brand significantly."
+      },
+      "ten": {
+        "name": "Mr. Mark Johnson",
+        "title": "CEO of Turbo Traders (Canada)",
+        "testimonial": "Transforming how we showcase our products are your 3D designs. The realism incredible—sales have skyrocketed. Thank you for your professionalism."
+      },
+      "eleven": {
+        "name": "Dr. Omar Al-Ghamdi",
+        "title": "Owner of Mega Pharma (Saudi Arabia)",
+        "testimonial": "Perfectly reflecting our values are your clean, professional designs. After a disappointing experience elsewhere, your team was a game-changer. Shukran for your outstanding and timely work."
+      },
+      "twelve": {
+        "name": "Eng. Hatem Al-Sayed",
+        "title": "Brand Manager at Amalia Olive Oil Products",
+        "testimonial": "Stunning, elegant, your packaging designs for Amalia are perfect olive oil. Customers love it—Allah ykhalikom, you’ve been amazing to work with. Shukran."
+      }
+    }
+  },
+  "pricing section": "______________ Pricing Section ______________ ",
+  "pricing": {
+    "titleDis": "Pricing",
+    "title": "Pricing That Fits",
+    "YourNeeds": "Your Needs",
+    "description": "Explore our flexible pricing for comprehensive design services that make your brand stand out—transparent, with no hidden fees.",
+    "packages": {
+      "basic": "Basic",
+      "logoDesign": "Logo Design",
+      "intermediate": "Intermediate",
+      "brandIdentityDesign": "Brand Identity Design",
+      "advanced": "Advanced",
+      "fullBrandIdentity": "Full Brand Identity"
+    },
+    "features": {
+      "one": "Logo design (3 initial concepts)",
+      "two": "2 minor revisions included",
+      "twoS": "3 minor revisions included",
+      "three": "Logo usage guidelines",
+      "four": "Design of essential marketing materials",
+      "five": "Business Cards",
+      "six": "Letterheads",
+      "seven": "Envelopes",
+      "eight": "Logo Animation: A short video to bring your logo to life",
+      "nine": "Social Media Designs (20 designs)"
+    },
+    "otherPackages": {
+      "basicLogoAnimation": "Basic Logo Animation",
+      "one": "Simple yet professional logo animation with smooth transitions and effects. Delivered in MP4 and GIF formats",
+      "advancedLogoAnimation": "Advanced Logo Animation",
+      "two": "Complex, professional logo animation with dynamic transitions and effects. Delivered in MP4 and GIF formats for versatile presentation.",
+      "socialMediaDesigns": "Social Media Designs",
+      "three": "20 high-quality social media designs tailored to your brand's needs, ensuring visually appealing and engaging content across all platforms.",
+      "graphicsDesign": "Graphics Design",
+      "four": "Custom graphics to enhance your brand’s communication. Includes brochures, flyers, and tailored materials.",
+      "websiteDesign": "Website Design",
+      "five": "Professional, user-friendly websites with modern UI/UX design, customized functionality, and optimized experience.",
+      "socialMediaManagement": "Social Media Management",
+      "six": "Monthly management of social platforms with creative content, efficient scheduling, and performance analysis.",
+      "managingAdsCampaigns": "Managing Ads Campaigns",
+      "seven": "Monthly advertising campaign management, featuring campaign setup, optimization, budget management, and detailed performance tracking."
+    },
+    "customQuotes": "Custom Quotes",
+    "perMonth": "/month",
+    "USD": "USD",
+    "USDs": "$",
+    "SAR": "SAR",
+    "EGP": "EGP"
+  },
+  "take action": "______________ Take Action ______________ ",
+  "takeAction": {
+    "readyToMakeYour": "Ready to make your",
+    "iconicBrand": "iconic brand?",
+    "description": "Looking for a custom logo and brand identity that reflects your vision? You’re in the right place—let’s create a lasting impression!",
+    "bookCall": "Book a call"
+  },
+  "footer section": "______________ Footer Section ______________ ",
+  "footer": {
+    "quickLinks": "Quick Links",
+    "connectWithUs": "Connect with Us",
+    "allRightsReserved": "All Rights Reserved.",
+    "termsConditions": "Terms & Conditions",
+    "behance": "Behance",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "facebook": "Facebook"
+  },
+  "faq Section": "______________ FAQ Section ______________ ",
+  "faq": {
+    "title": "FAQs",
+    "header": "Frequently Asked Questions",
+    "description": "Find the information you need about our services, plans, and processes. If you have more questions, feel free to reach out to us!",
+    "terms": "Terms & Conditions",
+    "q": {
+      "one": "How does the logo design process work?",
+      "two": "Are the designs 100% original?",
+      "three": "What is your revision policy?",
+      "four": "What is your payment policy?",
+      "five": "What is your delivery policy?",
+      "six": "How will communication work during the project?",
+      "seven": "What is your ownership policy?",
+      "eight": "What is your cancellation and refund policy?",
+      "nine": "Is my data safe with you?",
+      "ten": "How can I file a complaint?",
+      "eleven": "What happens if we can’t reach an agreement?"
+    },
+    "a": {
+      "one": "We start by understanding your vision and brand goals, then present several design concepts. After you choose your preferred concept, we refine it until we achieve the final design.",
+      "two": "Yes, all designs are 100% original and custom-made for your brand. No templates or copies are used.",
+      "three": "Each package includes a specific number of free revisions",
+      "four": "The cost depends on your chosen package. We require a 50% upfront payment to start the project, and the remaining 50% is due upon final delivery. Our pricing is transparent with no hidden fees. You can pay via cash, bank transfer, or electronic payment platforms.",
+      "five": "Delivery time depends on the package you choose, ranging from 5 to 14 business days. If you need faster delivery, we offer an Express package. In case of any delays, we will inform you as soon as possible.",
+      "six": "You can communicate via WhatsApp, email, or phone calls. You will have a dedicated project manager to update you and address your concerns.",
+      "seven": "Once the full payment is made, the design becomes your complete property, and you can use it as you wish. We retain the right to display the design in our portfolio unless you request otherwise.",
+      "eight": "You can cancel the order after work has begun, but a 50% deduction will be applied to cover operational costs. After the final delivery, no refunds can be issued.",
+      "nine": "Absolutely! We are committed to protecting your data and will not share it with any third parties. Your information is used solely to complete the agreed-upon work.",
+      "ten": "You can submit your complaint via email or phone. We respond to all complaints within 48 business hours",
+      "eleven": "We will attempt to resolve the dispute amicably. If no agreement is reached, we will resort to arbitration under the laws of the Arab Republic of Egypt"
+    }
+  },
+  "terms page": "______________ Terms Page ______________ ",
+  "terms": {
+    "title": "Terms and Conditions",
+    "subtitle": "Please read these terms and conditions carefully before using our services.",
+    "section1": {
+      "revisionPolicy": "Revision Policy",
+      "numberOfRevisions": "Number of Revisions",
+      "starterPackage": "Starter Package",
+      "starterPackageDescription": "2 minor revisions for free.",
+      "professionalPackage": "Professional Package",
+      "professionalPackageDescription": "2 minor revisions for free.",
+      "premiumPackage": "Premium Package",
+      "premiumPackageDescription": "3 minor revisions for free.",
+      "scopeOfRevisions": "Scope of Revisions",
+      "minorRevisions": "Minor Revisions",
+      "minorRevisionsDescription": "Include color changes, font adjustments, or moving simple elements.",
+      "majorRevisions": "Major Revisions",
+      "majorRevisionsDescription": "Include complete redesigns, restructuring main elements, changing the logo, or adding entirely new elements.",
+      "additionalRevisionFees": "Additional Revision Fees",
+      "minorRevisionFee": "$30 for each additional minor revision after exhausting the agreed number of revisions.",
+      "majorRevisionFee": "$50 to $150 for each major revision, depending on the scale and complexity of the changes."
+    },
+    "section2": {
+      "paymentPolicy": "Payment Policy",
+      "advancePayment": "Advance Payment",
+      "advancePaymentDescription1": "50% of the total amount is required as an advance before work begins.",
+      "advancePaymentDescription2": "The remaining 50% is due upon delivery of the final work.",
+      "paymentMethods": "Payment Methods",
+      "paymentMethodsDescription": "Cash, bank transfer, or electronic payment platforms."
+    },
+    "section3": {
+      "deliveryPolicy": "Delivery Policy",
+      "deliveryTimelines": "Delivery Timelines",
+      "starterPackage": "Starter Package",
+      "starterPackageTimeline": "5-7 working days.",
+      "professionalPackage": "Professional Package",
+      "professionalPackageTimeline": "10-14 working days.",
+      "premiumPackage": "Premium Package",
+      "premiumPackageTimeline": "15-20 working days.",
+      "note": "Note",
+      "noteDescription": "Delivery timelines may be extended in case of additional revision requests or unforeseen circumstances. The client will be informed of any potential delays as soon as possible.",
+      "fileDelivery": "File Delivery",
+      "fileDeliveryDescription": "Final files will be delivered via email or file-sharing platforms. Files include: (PDF, PNG, JPEG) for designs, and (MP4, GIF) for animations."
+    },
+    "section4": {
+      "cancellationRefundPolicy": "Cancellation and Refund Policy",
+      "beforeWorkBegins": "Before Work Begins",
+      "beforeWorkBeginsDescription": "If the client cancels the order before work begins, 100% of the advance payment will be refunded.",
+      "afterWorkBegins": "After Work Begins",
+      "afterWorkBeginsDescription": "If the client cancels the order after work begins, 50% of the total amount will be deducted. This covers part of the operational costs and time already invested.",
+      "afterDelivery": "After Delivery",
+      "afterDeliveryDescription": "No refunds will be issued after the final work has been delivered."
+    },
+    "section5": {
+      "intellectualPropertyPolicy": "Intellectual Property Policy",
+      "clientRights": "Client Rights",
+      "clientRightsDescription": "After full payment, the client has the right to use the designs as they see fit. We reserve the right to display the designs in our portfolio unless the client requests otherwise.",
+      "sevenDesignStudioRights": "Seven Design Studio Rights",
+      "sevenDesignStudioRightsDescription": "We retain intellectual property rights to the designs until full payment is received."
+    },
+    "section6": {
+      "privacyPolicy": "Privacy Policy",
+      "dataProtection": "Data Protection",
+      "dataProtectionDescription": "We are committed to protecting client data and will not share it with any third parties. Client data will only be used to execute the agreed-upon work."
+    },
+    "section7": {
+      "complaintsPolicy": "Complaints Policy",
+      "filingComplaint": "Filing a Complaint",
+      "filingComplaintDescription": "Clients can file complaints via email or phone. Complaints will be addressed within 48 working hours.",
+      "disputeResolution": "Dispute Resolution",
+      "disputeResolutionDescription": "Any disputes will be resolved amicably. If no resolution is reached, arbitration will be sought by the laws of [Country]."
+    },
+    "section8": {
+      "policyAmendments": "Policy Amendments",
+      "rightToAmend": "Right to Amend",
+      "rightToAmendDescription": "We reserve the right to amend this policy at any time. Clients will be informed of any changes via the website or email."
+    },
+    "section9": {
+      "acceptanceOfTerms": "Acceptance of Terms",
+      "agreement": "Agreement",
+      "agreementDescription": "By proceeding with the work, the client agrees to all the terms and conditions outlined above."
+    },
+    "section10": {
+      "contactInformation": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "website": "Website"
+    }
+  },
+  "meeting page": "______________ Meeting Page ______________ ",
+  "meeting": {
+    "pageTitle": "Book a Meeting - Seven Studio Design",
+    "meta": {
+      "description": "Book a call with Seven Studio Design to create your iconic brand. Limited spots available for logo design and brand identity services.",
+      "keywords": "logo design, brand identity, design services, Seven Studio Design, book a meeting",
+      "author": "Seven Studio Design"
+    },
+    "spotsAvailable": "Only 3 Spots Are Available This Month",
+    "logoAlt": "Seven Design Logo",
+    "hopOnCall": "Hop on a",
+    "call": "call",
+    "withUs": "with us",
+    "acceptingClients": "We're accepting new clients for logo and brand identity services this month—limited seats, so act fast!",
+    "bookNow": "Book a call through the form below to get started.",
+    "apologyMessage": "We apologize in advance, but booking a meeting doesn’t guarantee acceptance. We work exclusively with clients we’re confident can achieve outstanding results through our expertise."
+  }
+}
