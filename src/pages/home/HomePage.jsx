@@ -22,6 +22,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Glow from '../../components/Glow';
 import GoBackTop from '../../components/GoBackTop';
+import { Helmet } from 'react-helmet';
 
 const HomePage = () => {
   const location = useLocation();
@@ -42,6 +43,19 @@ const HomePage = () => {
 
   return (
     <div className="relative pt-20 md:pt-36 overflow-x-hidden">
+      <Helmet>
+        <title>Seven Design Studio | Luxury Logo & Branding for High-End Businesses in GCC</title>
+        <meta
+          name="description"
+          content="Seven Design Studio specializes in creating premium logo designs and luxury branding for high-end businesses in Saudi Arabia, UAE, Qatar, and GCC. We turn simple concepts into iconic brands. Elevate your brand with us."
+        />
+        <meta
+          name="keywords"
+          content="Luxury logo design, Premium branding agency, High-end brand identity, Logo design studio in GCC, Luxury branding in Saudi Arabia, Iconic brand design, Professional logo design, Branding for high-end businesses, Creative logo design in UAE, Corporate branding in Qatar, تصميم لوجو فاخر, تصميم هوية بصرية للفئة العليا, تصميم براند في الخليج, استوديو تصميم لوجو في السعودية, تصميم هوية بصرية فاخرة, تصميم لوجو في دبي, خدمات تصميم العلامات التجارية, تصميم لوجو احترافي, تصميم براند للشركات الراقية,  تصميم لوجو في قطر"
+        />
+        <meta name="author" content="Seven Design Studio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Helmet>
       <Header />
       <HeroSection />
       <GoBackTop />

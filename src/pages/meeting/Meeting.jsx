@@ -22,12 +22,17 @@ const Meeting = () => {
   return (
     <div className="relative">
       <Helmet>
-        <title>{t('meeting.pageTitle')}</title>
-        <meta name="description" content={t('meeting.meta.description')} />
-        <meta name="keywords" content={t('meeting.meta.keywords')} />
-        <meta name="author" content={t('meeting.meta.author')} />
+        <title>Seven Design Studio | Book your call with us</title>
+        <meta
+          name="description"
+          content="Seven Design Studio specializes in creating premium logo designs and luxury branding for high-end businesses in Saudi Arabia, UAE, Qatar, and GCC. We turn simple concepts into iconic brands. Elevate your brand with us."
+        />
+        <meta
+          name="keywords"
+          content="Luxury logo design, Premium branding agency, High-end brand identity, Logo design studio in GCC, Luxury branding in Saudi Arabia, Iconic brand design, Professional logo design, Branding for high-end businesses, Creative logo design in UAE, Corporate branding in Qatar, تصميم لوجو فاخر, تصميم هوية بصرية للفئة العليا, تصميم براند في الخليج, استوديو تصميم لوجو في السعودية, تصميم هوية بصرية فاخرة, تصميم لوجو في دبي, خدمات تصميم العلامات التجارية, تصميم لوجو احترافي, تصميم براند للشركات الراقية,  تصميم لوجو في قطر"
+        />
+        <meta name="author" content="Seven Design Studio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://yourdomain.com/meeting" />
       </Helmet>
       <GoBackTop />
       <h1 className="text-secondary-text font-semibold text-center py-4 bg-gradient-to-t-orange">
