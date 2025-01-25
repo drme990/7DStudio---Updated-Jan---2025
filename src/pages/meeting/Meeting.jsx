@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Calendly from './components/Calendly';
 import Footer from '../../components/Footer';
 import { LatinSpan } from '../../components/Section';
-import Container from '../../components/container';
+import Container from '../../components/Container';
 import SecCard from '../home/components/SecCard';
 import Glow from '../../components/Glow';
 
