@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import {
   Section,
   Description,
@@ -44,14 +44,14 @@ const ProcessSection = () => {
 
   return (
     <Section id={'process'}>
-      <Container className="flex flex-col gap-[19.5px] text-gap">
+      <MyContainer className="flex flex-col gap-[19.5px] text-gap">
         <LittleTitle>{t('process.sectionTitle')}</LittleTitle>
         <Title>
           {t('process.howIt')} <LatinSpan>{t('process.works')}</LatinSpan>
         </Title>
         <Description>{t('process.description')}</Description>
-      </Container>
-      <Container className="mt-16">
+      </MyContainer>
+      <MyContainer className="mt-16">
         <div className="w-full flex justify-around items-center gap-16 flex-col md:flex-row flex-wrap">
           {process.map((item, index) => (
             <SecCard
@@ -63,7 +63,7 @@ const ProcessSection = () => {
             />
           ))}
         </div>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

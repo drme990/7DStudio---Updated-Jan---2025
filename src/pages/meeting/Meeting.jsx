@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Calendly from './components/Calendly';
 import Footer from '../../components/Footer';
 import { LatinSpan } from '../../components/Section';
-import Container from '../../components/Container';
+import MyContainer from '../../components/MyContainer';
 import SecCard from '../home/components/SecCard';
 import Glow from '../../components/Glow';
 
@@ -57,7 +57,7 @@ const Meeting = () => {
         </header>
         <main className="flex flex-col ">
           <div className="flex flex-col gap-[19.5px] text-gap">
-            <Container>
+            <MyContainer>
               <div className="w-auto mx-4 md:mx-0 backdrop-blur bg-secondaryLightWhite flex flex-col items-center justify-center gap-[19.5px] text-gap border-[1px] border-light-border dark:border-secondary-text dark:bg-secondaryDarkBlack py-8 rounded-3xl">
                 <div className="px-2 md:px-8">
                   <h1
@@ -81,7 +81,7 @@ const Meeting = () => {
                   <p>{t('meeting.bookNow')}</p>
                 </div>
               </div>
-            </Container>
+            </MyContainer>
             <div className="relative flex flex-col lg:flex-row gap-4 items-center lg:items-start justify-center">
               <div className="absolute w-4/6 h-4/6 bg-primary top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-[120px] opacity-30"></div>
               <div className="w-11/12 lg:w-1/3 z-10 max-w-xl">
@@ -95,14 +95,14 @@ const Meeting = () => {
               </div>
             </div>
           </div>
-          <Container className="mb-16">
+          <MyContainer className="mb-16">
             <SecCard
               className="md:w-auto md:max-w-lg bg-secondaryLightWhite/50 dark:bg-secondaryDarkBlack/50 backdrop-blur-sm relative z-10"
               description={t('meeting.apologyMessage')}
               iconLight={apologizeBlack}
               iconDark={apologize}
             />
-          </Container>
+          </MyContainer>
         </main>
       </div>
       <div className="h-8 md:h-16 z-0">

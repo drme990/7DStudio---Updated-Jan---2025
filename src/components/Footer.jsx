@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Logo from './Logo';
-import Container from './container';
+import Container from './MyContainer';
 
 import { FaBehance } from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';

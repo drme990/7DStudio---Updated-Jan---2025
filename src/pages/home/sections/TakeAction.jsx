@@ -1,6 +1,6 @@
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import { LatinSpan, Section } from '../../../components/Section';
 import Button from '../../../components/Button';
 
@@ -10,7 +10,7 @@ const TakeAction = () => {
 
   return (
     <Section className="relative z-20 w-80 md:w-full">
-      <Container>
+      <MyContainer>
         <div className="backdrop-blur-sm bg-secondaryLightWhite/50 dark:bg-secondaryDarkBlack/50 flex flex-col items-center justify-center gap-9 border-[1px] border-light-border dark:border-secondary-text py-8 rounded-3xl">
           <div className="text-center">
             <h1 className="text-site md:text-site-md text-center tracking-site leading-site px-2">
@@ -31,7 +31,7 @@ const TakeAction = () => {
             {t('buttons.bookACall')}
           </Button>
         </div>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

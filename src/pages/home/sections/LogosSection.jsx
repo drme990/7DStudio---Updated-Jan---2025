@@ -1,7 +1,7 @@
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
 import { Section } from '../../../components/Section';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import MovingSlider from '../../../components/MovingSlider';
 import BannerImg from '../../../components/BannerImg';
 import Button from '../../../components/Button';
@@ -15,7 +15,7 @@ const LogosSection = () => {
 
   return (
     <Section id={'logos'}>
-      <Container>
+      <MyContainer>
         <p className="text-center pt-2 mb-4 text-light-text dark:text-primary-text text">
           {t('home.logosSection.littleTitle')}
         </p>
@@ -58,7 +58,7 @@ const LogosSection = () => {
             </Button>
           </a>
         </div>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

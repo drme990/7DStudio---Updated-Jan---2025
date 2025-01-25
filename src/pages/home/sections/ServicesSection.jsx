@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import {
   Description,
   LatinSpan,
@@ -71,15 +71,15 @@ const ServicesSection = () => {
 
   return (
     <Section id={'services'}>
-      <Container className="flex flex-col gap-[19.5px] text-gap">
+      <MyContainer className="flex flex-col gap-[19.5px] text-gap">
         <LittleTitle>{t('services.sectionTitle')}</LittleTitle>
         <Title>
           {t('services.allYour')}{' '}
           <LatinSpan>{t('services.designNeeds')}</LatinSpan>
         </Title>
         <Description>{t('services.description')}</Description>
-      </Container>
-      <Container className="flex flex-col gap-4 my-4 mt-16">
+      </MyContainer>
+      <MyContainer className="flex flex-col gap-4 my-4 mt-16">
         <MovingSlider speed={120} arrayNumber={6} direction="reverse">
           {ServicesOne.map((service, index) => (
             <ServiceCard
@@ -100,7 +100,7 @@ const ServicesSection = () => {
             />
           ))}
         </MovingSlider>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

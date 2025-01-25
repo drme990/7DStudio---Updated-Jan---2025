@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import { Section } from '../../../components/Section';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import drMohamed from '../../../assets/drMohamed.webp';
 
 const CopiedSection = () => {
@@ -10,7 +10,7 @@ const CopiedSection = () => {
 
   return (
     <Section id="copied">
-      <Container className="flex items-center justify-center">
+      <MyContainer className="flex items-center justify-center">
         <article
           className="w-full z-10 relative bg-secondaryLightWhite dark:bg-secondaryDarkBlack max-w-lg flex justify-between flex-row rounded-site border border-light-border dark:border-secondary-text"
           aria-labelledby="copied-title"
@@ -44,7 +44,7 @@ const CopiedSection = () => {
             </h2>
           </div>
         </article>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

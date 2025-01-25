@@ -1,4 +1,4 @@
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import {
   Description,
   LittleTitle,
@@ -60,14 +60,14 @@ const FrequentlySection = () => {
 
   return (
     <Section id="FAQs">
-      <Container className="flex flex-col gap-[19.5px] text-gap">
+      <MyContainer className="flex flex-col gap-[19.5px] text-gap">
         <LittleTitle className="text-center">{t('faq.title')}</LittleTitle>
         <Title>{t('faq.header')}</Title>
         <Description className="text-center mb-6">
           {t('faq.description')}
         </Description>
-      </Container>
-      <Container className="mt-16">
+      </MyContainer>
+      <MyContainer className="mt-16">
         <div className="max-w-2xl flex flex-col items-center justify-center mx-auto">
           {faqs.map((faq, index) => (
             <FAQItem
@@ -78,7 +78,7 @@ const FrequentlySection = () => {
             />
           ))}
         </div>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

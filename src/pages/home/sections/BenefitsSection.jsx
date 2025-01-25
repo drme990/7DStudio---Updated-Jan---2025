@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import {
   Description,
   LatinSpan,
@@ -67,14 +67,14 @@ const BenefitsSection = () => {
 
   return (
     <Section id={'benefits'}>
-      <Container className="flex flex-col gap-[19.5px] text-gap">
+      <MyContainer className="flex flex-col gap-[19.5px] text-gap">
         <LittleTitle>{t('benefits.sectionTitle')}</LittleTitle>
         <Title>
           {t('benefits.why')} <LatinSpan>{t('benefits.us')}</LatinSpan>
         </Title>
         <Description>{t('benefits.description')}</Description>
-      </Container>
-      <Container className="mt-16">
+      </MyContainer>
+      <MyContainer className="mt-16">
         <div className="w-full flex justify-around items-center gap-16 flex-col md:flex-row flex-wrap">
           {Benefits.map((benefit, index) => (
             <SecCard
@@ -86,7 +86,7 @@ const BenefitsSection = () => {
             />
           ))}
         </div>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

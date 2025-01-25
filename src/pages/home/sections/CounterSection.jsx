@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import { Section } from '../../../components/Section';
 import CounterCard from '../components/CounterCard';
 
@@ -67,7 +67,7 @@ const CounterSection = () => {
 
   return (
     <Section>
-      <Container>
+      <MyContainer>
         <div className="grid place-items-center md:place-items-stretch grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {counterData.map((counter, index) => (
             <CounterCard
@@ -80,7 +80,7 @@ const CounterSection = () => {
             />
           ))}
         </div>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

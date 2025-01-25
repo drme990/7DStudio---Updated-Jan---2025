@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Button from '../../../components/Button';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import { Section } from '../../../components/Section';
 import TextAnimation from '../../../components/TextAnimation';
 import Glow from '../../../components/Glow';
@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <div className="relative pb-20 overflow-hidden bg-primaryLightWhite dark:bg-primaryDarkBlack">
       <Section id={'home'}>
-        <Container>
+        <MyContainer>
           <div className="flex flex-col items-center">
             <div className="flex flex-col items-center justify-center gap-[41px] text-gap -mb-10 md:mb-0">
               <div className="w-fit flex items-center gap-2 py-2 px-4 rounded-lg border-[1px] border-primaryDarkBlack dark:border-primary">
@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="absolute bottom-0 w-full h-16 bg-gradient-to-t from-primaryLightWhite dark:from-primaryDarkBlack via-primaryLightWhite dark:via-primaryDarkBlack to-transparent blur-[10px]" />
             <div className="absolute -bottom-1 w-full h-6 bg-primaryLightWhite dark:bg-primaryDarkBlack blur-[2px]" />
           </div>
-        </Container>
+        </MyContainer>
       </Section>
     </div>
   );

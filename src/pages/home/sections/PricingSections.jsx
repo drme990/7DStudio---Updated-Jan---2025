@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import {
   Description,
   LatinSpan,
@@ -248,14 +248,14 @@ const PricingSections = () => {
 
   return (
     <Section id={'pricing'}>
-      <Container className="flex flex-col gap-[19.5px] text-gap mb-8">
+      <MyContainer className="flex flex-col gap-[19.5px] text-gap mb-8">
         <LittleTitle>{t('pricing.titleDis')}</LittleTitle>
         <Title>
           {t('pricing.title')} <LatinSpan>{t('pricing.YourNeeds')} </LatinSpan>
         </Title>
         <Description>{t('pricing.description')}</Description>
-      </Container>
-      <Container className="mt-16 flex flex-col md:flex-row gap-4 justify-center md:items-start items-center flex-nowrap md:flex-wrap">
+      </MyContainer>
+      <MyContainer className="mt-16 flex flex-col md:flex-row gap-4 justify-center md:items-start items-center flex-nowrap md:flex-wrap">
         <CurrencySelector
           currency={currency}
           setCurrency={setCurrency}
@@ -263,15 +263,15 @@ const PricingSections = () => {
             lang === 'ar' ? 'gap-2 md:gap-8 px-4 md:px-8' : 'gap-8 px-8'
           } bg-secondaryLightWhite dark:bg-primaryDarkBlack border-[1px] border-light-border dark:border-secondary-text rounded-site py-4 w-fit mx-auto`}
         />
-      </Container>
-      <Container className="mt-8 flex flex-col md:flex-row gap-4 justify-center md:items-start items-center flex-nowrap md:flex-wrap">
+      </MyContainer>
+      <MyContainer className="mt-8 flex flex-col md:flex-row gap-4 justify-center md:items-start items-center flex-nowrap md:flex-wrap">
         {renderPricingCards}
-      </Container>
-      <Container className="py-4">
+      </MyContainer>
+      <MyContainer className="py-4">
         <MovingSliderHover speed={320} arrayNumber={10} enableHover>
           {renderSmallPricingCards}
         </MovingSliderHover>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

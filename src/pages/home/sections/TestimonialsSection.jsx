@@ -6,7 +6,7 @@ import {
   Section,
   Title,
 } from '../../../components/Section';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import MovingSlider from '../../../components/MovingSlider';
 import TestimonialCard from '../components/TestimonialCard';
 import { myTestimonialsOne } from '../../../services/myTestimonials';
@@ -17,7 +17,7 @@ const TestimonialsSection = () => {
 
   return (
     <Section id="testimonials">
-      <Container className="flex flex-col gap-[19.5px] text-gap mb-12">
+      <MyContainer className="flex flex-col gap-[19.5px] text-gap mb-12">
         <LittleTitle>{t('testimonials.wordsOfLove')}</LittleTitle>
         <Title>
           {t('testimonials.readWhat')}{' '}
@@ -25,8 +25,8 @@ const TestimonialsSection = () => {
           {t('testimonials.say')}
         </Title>
         <Description>{t('testimonials.description')}</Description>
-      </Container>
-      <Container className="mt-16 flex flex-col gap-4">
+      </MyContainer>
+      <MyContainer className="mt-16 flex flex-col gap-4">
         <MovingSlider speed={210} arrayNumber={7}>
           {myTestimonialsOne.map((testimonial, index) => (
             <TestimonialCard
@@ -49,7 +49,7 @@ const TestimonialsSection = () => {
             />
           ))}
         </MovingSlider>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };

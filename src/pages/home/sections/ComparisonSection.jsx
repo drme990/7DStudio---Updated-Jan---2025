@@ -1,6 +1,6 @@
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
-import Container from '../../../components/container';
+import MyContainer from '../../../components/MyContainer';
 import {
   Section,
   Title,
@@ -35,7 +35,7 @@ const ComparisonSection = () => {
 
   return (
     <Section id="comparison" aria-labelledby="comparison-title">
-      <Container className="flex flex-col gap-5 text-gap">
+      <MyContainer className="flex flex-col gap-5 text-gap">
         <LittleTitle id="comparison-title">
           {t('comparison.sectionTitle')}
         </LittleTitle>
@@ -43,8 +43,8 @@ const ComparisonSection = () => {
           {t('comparison.whyWorking')} {lang === 'ar' && <br />}
           <LatinSpan>{t('comparison.different')}</LatinSpan>
         </Title>
-      </Container>
-      <Container className="flex flex-col md:flex-row items-center justify-center gap-11 md:gap-16 lg:gap-24 mt-16">
+      </MyContainer>
+      <MyContainer className="flex flex-col md:flex-row items-center justify-center gap-11 md:gap-16 lg:gap-24 mt-16">
         <div className="w-full flex flex-col items-center justify-center md:max-w-[450px]">
           <h3
             className="text-center text-light-text dark:text-primary-text text-2xl mb-12 mt-2"
@@ -92,7 +92,7 @@ const ComparisonSection = () => {
             </ul>
           </ComparisonCard>
         </div>
-      </Container>
+      </MyContainer>
     </Section>
   );
 };
