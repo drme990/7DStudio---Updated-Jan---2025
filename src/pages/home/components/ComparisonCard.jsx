@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
+import i18next from 'i18next';
 import { cn } from '../../../lib/utils';
 import SpecialGlow from './SpecialGlow';
 
 const ComparisonCard = ({ type = 'normal', className, children }) => {
+  const lang = i18next.language;
+
   return (
     <div
       className={cn(
@@ -12,7 +15,12 @@ const ComparisonCard = ({ type = 'normal', className, children }) => {
       aria-label="Comparison card"
     >
       {type === 'glow' && (
-        <SpecialGlow className="absolute -top-full md:-top-[120%] -right-1/2 z-[1]" />
+        <SpecialGlow
+          className={`absolute -top-full md:-top-[120%] ${
+            lang === 'ar' ? '-left-1/2' : '-right-1/2 '
+          }
+          z-[1]`}
+        />
       )}
       {children}
     </div>
