@@ -9,7 +9,8 @@ const CopiedSection = () => {
   const lang = i18next.language;
 
   return (
-    <Section id="copied">
+    <Section id="copied" className={'relative'}>
+      <div className="absolute z-10 w-full h-20 bg-primaryLightWhite/60 dark:bg-primaryDarkBlack/60 top-0" />
       <MyContainer className="flex items-center justify-center">
         <article
           className="w-full z-10 relative bg-secondaryLightWhite dark:bg-secondaryDarkBlack max-w-lg flex justify-between flex-row rounded-site border border-light-border dark:border-secondary-text"
